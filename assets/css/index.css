@@ -6,16 +6,16 @@ main{
     align-items: center;
 }
 .container{
-    width: auto;
-    height: auto;
+    width: 50%;
+    height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 .formulario{
-    width: 450px;
-    height: 300px;
+    width: 70%;
+    height: 150%;
     /*background-color: rgba(0, 0, 0, 0.5);*/
     background-color: rgba(177,11,31,1);
     border: 1px solid black;
@@ -26,16 +26,17 @@ main{
     align-items: center;
     box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
 }
-.formulario h1{
-    margin-top: -30px;
-    color: white;
+.inputs{
+    width: 80%;
+    height: auto;
 }
 .input{
     display: block;
-    width: 350px;
+    width: 100%;
+    height: 30px;
     margin: 15px 0;
     font-size: 20px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 25px;
     border: 0;
     outline: none;
