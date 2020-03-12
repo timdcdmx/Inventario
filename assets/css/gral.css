@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'News Cycle', Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 7vh;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    background-color: rgba(177,11,31,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    width: 20%;
+}
+main{
+    width: 100%;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*height: 3vh;*/
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    background-color: rgba(177,11,31,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    color: white;
+    font-size: 18px;
+}
