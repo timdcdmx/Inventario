@@ -63,12 +63,14 @@ main{
     transition: all 1s;
 }
 .miniContainer:hover > .miniContainer-contenido{
+    transition: all 1s;
     width: 100%;
     margin-top: 20px;
-    display: flex;
+   display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    transition: all 1s;
+    
 }
+
