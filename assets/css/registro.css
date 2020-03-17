@@ -1,0 +1,74 @@
+main{
+    width: 100%;
+    height: 93vh;
+}
+.container{
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.miniContainer{
+    width: 15%;
+    height: 6%;
+    background-color:  grey;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s;
+}
+.miniContainer-header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.miniContainer-header p{
+    display: inline;
+    color: white;
+    font-size: 30px;
+}
+.miniContainer-contenido{
+    display: none;
+    font-size: 18px;
+    transition: all 1s;
+}
+.miniContainer-contenido-boton{
+    margin-top: 20px;
+    padding: 5px 45px;
+    background-color: rgba(177,11,31,1);
+    outline: none;
+    border-radius: 10px;
+}
+.miniContainer-contenido-boton:hover{
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+}
+.miniContainer-contenido-boton a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 1s;
+}
+.miniContainer-contenido-boton a:hover{
+    font-size: 20px;
+    color: white;
+    text-decoration: underline
+}
+.miniContainer:hover{
+    height: 200px;
+    transition: all 1s;
+}
+.miniContainer:hover > .miniContainer-contenido{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 1s;
+}
